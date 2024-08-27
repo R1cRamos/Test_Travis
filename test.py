@@ -1,10 +1,10 @@
-def suma(a, b):
+def add(a, b): # Defines a function to add two numbers
     return a + b
 
-def test_suma():
-    assert suma(2, 3) == 5
-    assert suma(-1, 1) == 0
+def test_add(): # Defines a function to test the 'add' function
+    assert add(2, 3) == 5 # Checks if 2 + 3 equals 5
+    assert add(-1, 1) == 0 # Checks if -1 + 1 equals 0
 
-if __name__ == "__main__":
-    test_suma()
-    print("¡Todas las pruebas pasaron!")
+if __name__ == "__main__": # Runs the test function if the script is executed directly
+    test_add()
+    print("All tests passed!")
