@@ -1,1 +1,9 @@
+language: python # Especifica el lenguaje de programación
+python:
+  - "3.9"       # Versión de Python a utilizar
 
+install:
+  - pip install -r requirements.txt # Instala las dependencias (si las hay)
+
+script:
+  - python test.py # Ejecuta el script de prueba
