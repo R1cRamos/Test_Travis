@@ -1,9 +1,6 @@
-language: python # Specifies the programming language
+language: python 
 python:
-  - "3.9"       # Python version to use
-
-install:
-  - pip install -r requirements.txt # Installs dependencies (if any)
+  - "3.9"       
 
 script:
-  - python test.py # Executes the test script
+  - python test.py
